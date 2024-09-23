@@ -11,7 +11,6 @@ header .head-logo {
 header .head-logo div img {
   width: 100%;
   height: 100%;
-  /* background-color: red; */
 }
 header .head-logo .menu {
   display: none;
@@ -24,6 +23,7 @@ header .nav ul {
 }
 header .nav ul li a {
   color: var(--subcolor);
+  font-family: var(--Groteskfont);
   font-weight: bold;
 }
 header .nav ul li .selected {
@@ -40,5 +40,49 @@ header .auth ul {
   }
   .head .head-logo .menu {
     display: block;
+  }
+}
+.shopPage .page {
+  width: calc(100%);
+  height: 392px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/shopPage/shoppage.png);
+}
+.shopPage .page .intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  font-family: var(--subfont);
+  padding: 30px;
+}
+.shopPage .page .intro span {
+  font-size: 1em;
+  font-family: var(--interfont);
+}
+.shopPage .page .intro span .home {
+  color: #605f5f;
+}
+.shopPage .page .intro h2 {
+  font-size: 3em;
+  font-family: var(--Poppinsfont);
+}
+.shopPage .page .intro p {
+  font-size: 2em;
+  font-family: var(--interfont);
+}
+@media screen and (max-width: 830px) {
+  .shopPage .page .intro span {
+    font-size: 1em;
+  }
+  .shopPage .page .intro h2 {
+    font-size: 2em;
+  }
+  .shopPage .page .intro p {
+    font-size: 1em;
   }
 }

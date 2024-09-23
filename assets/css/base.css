@@ -4,6 +4,9 @@
   margin: 0px;
 }
 :root {
+  --Groteskfont: "Space Grotesk";
+  --Poppinsfont: "Poppins";
+  --interfont: "Inter";
   --maincolor: #141718;
   --subcolor: #6c7275;
 }
