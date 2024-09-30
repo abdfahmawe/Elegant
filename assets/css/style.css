@@ -1,5 +1,7 @@
 @import url(base.css);
-
+html {
+  scroll-behavior: smooth;
+}
 header {
   padding: 30px 0;
 }
